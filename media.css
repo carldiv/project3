@@ -1,0 +1,33 @@
+@media (width < 900px) {
+    .navlist ul {
+        display: none;
+    }
+    .home-container {
+        flex-direction: column;
+    }
+    .home-img {
+        grid-area: 1/1/2/2;
+    }
+    .button {
+        margin: auto;
+    }
+    .home-content{
+        text-align: center;
+        margin: auto;
+    }
+    
+    .icons {
+        margin: auto;
+    }
+    .home-content p {
+        text-align: center;
+        font-size: 1rem;
+    }
+    .home-content h1 {
+        text-align: center;
+        font-size: 2rem;
+    }
+    .home-content h2 {
+        text-align: center;
+    }
+}
